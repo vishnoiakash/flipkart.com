@@ -7,10 +7,12 @@
 }
 
 body {
+    width: 100%;
     font-size: 14px;
     background-color: #f1f3f6;
     color: #212121;
     line-height: 1.4;
+  
 }
 
 .navbar {
@@ -195,10 +197,12 @@ body {
 .deals .image img {
     padding: 20px;
     height: 150px;
+    
 
 }
 
 .deals img:hover {
+    transition: .5s ease;
     transform: scale(1.1);
 }
 
@@ -228,4 +232,9 @@ footer{
 footer a{
     color: #fff ;
     text-decoration: none;
+}
+
+
+@media screen and (max-width : 768px) {
+    
 }
