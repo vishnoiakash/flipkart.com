@@ -87,6 +87,7 @@ body {
 .menu-items {
     width: 35%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     color: #fff;
@@ -202,6 +203,36 @@ body {
     height: 150px;
     
 
+}
+@media screen and (max-width:768px) {
+    .category {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 0;
+        
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        background-color: #fff;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    .deals-bar{
+        text-align: center;
+    }
+    .deals .image img {
+        padding: 20px;
+        height: 45px;
+        
+    
+    }
+    .image img {
+        height: 65px;
+    }
+    .caption{
+        font-size: 10px;
+    }
+    
 }
 
 .deals img:hover {
